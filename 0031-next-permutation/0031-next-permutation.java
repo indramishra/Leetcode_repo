@@ -26,9 +26,7 @@ class Solution {
             }
         }
 
-        int temp = nums[positionIndex];
-        nums[positionIndex] = nums[minIndex];
-        nums[minIndex] = temp;
+        swap(nums,positionIndex,minIndex);
         reverseArray(nums,positionIndex+1,arrLen);
 
     }
@@ -37,9 +35,13 @@ class Solution {
         if(start >= end) {
             return;
         }
-        int temp = arr[start];
-        arr[start] = arr[end];
-        arr[end] = temp;
+        swap(arr,start,end);
         reverseArray(arr, start+1, end-1);
+    }
+
+    public void swap(int[] arr, int i, int j) {
+         int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
     }
 }
