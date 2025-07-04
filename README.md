@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0031-next-permutation](https://github.com/indramishra/Leetcode_repo/tree/master/0031-next-permutation) |
+| [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/indramishra/Leetcode_repo/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/indramishra/Leetcode_repo/tree/master/0035-search-insert-position) |
 | [0053-maximum-subarray](https://github.com/indramishra/Leetcode_repo/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/indramishra/Leetcode_repo/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -43,6 +44,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/indramishra/Leetcode_repo/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/indramishra/Leetcode_repo/tree/master/0035-search-insert-position) |
 | [0792-binary-search](https://github.com/indramishra/Leetcode_repo/tree/master/0792-binary-search) |
 <!---LeetCode Topics End--> of LeetCode questions to ace the coding interview! - Created using [LeetHub](https://github.com/QasimWani/LeetHub)
