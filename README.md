@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0031-next-permutation](https://github.com/indramishra/Leetcode_repo/tree/master/0031-next-permutation) |
+| [0033-search-in-rotated-sorted-array](https://github.com/indramishra/Leetcode_repo/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/indramishra/Leetcode_repo/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/indramishra/Leetcode_repo/tree/master/0035-search-insert-position) |
 | [0053-maximum-subarray](https://github.com/indramishra/Leetcode_repo/tree/master/0053-maximum-subarray) |
@@ -44,6 +45,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/indramishra/Leetcode_repo/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/indramishra/Leetcode_repo/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/indramishra/Leetcode_repo/tree/master/0035-search-insert-position) |
 | [0792-binary-search](https://github.com/indramishra/Leetcode_repo/tree/master/0792-binary-search) |
