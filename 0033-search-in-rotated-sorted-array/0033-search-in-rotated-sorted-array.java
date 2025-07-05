@@ -5,6 +5,7 @@ class Solution {
         while(low <= high) {
             int mid = low + (high - low)/2;
             if(nums[low] <= nums[mid]) {
+                //if left part of the array is sorted
                 if(nums[low] <= target && target <= nums[mid])
                 {                    
                     high = mid - 1;
@@ -12,6 +13,7 @@ class Solution {
                     low = mid + 1;
                 }
                 } else {
+                    //if right part of the array is sorted
                     if(nums[mid] <= target && target <= nums[high]) {
                         low = mid + 1;
                     } else {
