@@ -21,10 +21,13 @@ class Solution {
             if(nums[mid] != nums[mid - 1] && nums[mid] != nums[mid+1]) {
                 return nums[mid];
             }
+            //we are at left, because even posion is equals to odd postion from the mid 
             if((mid % 2 == 1 && nums[mid] == nums[mid - 1]) || (mid % 2 == 0 && nums[mid] == nums[mid + 1])) {
+                //elemenate left part
                 start = mid + 1;
                 
             } else {
+                //elemenate right part
                end = mid - 1;
             }
         }
