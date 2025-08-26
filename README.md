@@ -16,6 +16,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/indramishra/Leetcode_repo/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/indramishra/Leetcode_repo/tree/master/0128-longest-consecutive-sequence) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/indramishra/Leetcode_repo/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/indramishra/Leetcode_repo/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0540-single-element-in-a-sorted-array](https://github.com/indramishra/Leetcode_repo/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/indramishra/Leetcode_repo/tree/master/0560-subarray-sum-equals-k) |
 | [0792-binary-search](https://github.com/indramishra/Leetcode_repo/tree/master/0792-binary-search) |
@@ -28,6 +29,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0031-next-permutation](https://github.com/indramishra/Leetcode_repo/tree/master/0031-next-permutation) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/indramishra/Leetcode_repo/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/indramishra/Leetcode_repo/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Simulation
 |  |
@@ -55,6 +57,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0035-search-insert-position](https://github.com/indramishra/Leetcode_repo/tree/master/0035-search-insert-position) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/indramishra/Leetcode_repo/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/indramishra/Leetcode_repo/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/indramishra/Leetcode_repo/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0540-single-element-in-a-sorted-array](https://github.com/indramishra/Leetcode_repo/tree/master/0540-single-element-in-a-sorted-array) |
 | [0792-binary-search](https://github.com/indramishra/Leetcode_repo/tree/master/0792-binary-search) |
 <!---LeetCode Topics End--> of LeetCode questions to ace the coding interview! - Created using [LeetHub](https://github.com/QasimWani/LeetHub)
