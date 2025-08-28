@@ -3,7 +3,6 @@ class Solution {
         Arrays.sort (nums);
         List<List<Integer>> ans = new ArrayList<> ();
         for(int i=0; i< nums.length;i++) {
-            //triplets should have unique elements
             if(i!=0 && nums[i] == nums[i-1]) {
                 continue;
             }
