@@ -1,22 +1,30 @@
 class Solution {
-    public List<List<Integer>> threeSum(int[] nums) {
-        Set<List<Integer>> ans = new HashSet<> ();
-
+     public List<List<Integer>> threeSum(int[] nums) {
+        Arrays.sort (nums);
+        List<List<Integer>> ans = new ArrayList<> ();
         for(int i=0; i< nums.length;i++) {
-            Map<Integer, Integer> map = new HashMap<> ();
+            //triplets should have unique elements
+            if(i!=0 && nums[i] == nums[i-1]) {
+                continue;
+            }
             int target = 0 - nums[i];
-           for(int j=i+1;j < nums.length;j++) {
-                int compliment = target - nums[j];
-               if(map.containsKey (compliment)) {
-                   List<Integer> list = Arrays.asList (nums[i],nums[j],compliment);
-                   list.sort (null);
-                  ans.add (list);
-               } else {
-                   map.put (nums[j], j);
-               }
-
-           }
+            int low = i+1;
+            int high = nums.length - 1;
+            while(low < high) {
+                int currentTarget = nums[low] + nums[high];
+                if(currentTarget == target) {
+                    ans.add(Arrays.asList (nums[i],nums[low],nums[high]));
+                    low++;
+                    high--;
+                    while(low < high && nums[low] == nums[low-1]){low = low+1;}
+                    while(low < high && nums[high] == nums[high + 1]){high = high -1;}
+                } else if(currentTarget < target) {
+                    low++;
+                } else {
+                    high--;
+                }
+            }
         }
-                return new ArrayList<> (ans);
+        return ans;
     }
 }
