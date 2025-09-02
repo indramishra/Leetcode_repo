@@ -11,7 +11,9 @@ class Solution {
         for(int k : nums3) {
             for(int l : nums4) {
                 int complement = 0-(k+l);
-               count+= map.getOrDefault(complement, 0);
+               if(map.containsKey(complement)) {
+                count += map.get(complement);
+               }
             }
         }
         return count;
